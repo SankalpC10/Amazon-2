@@ -7,14 +7,14 @@ export default function Home({products}) {
     <div>
       <Head>
         <title>Amazon 2.0</title>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4K5STWR05"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTLQVHSH1F"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-Q4K5STWR05');
+                gtag('config', 'G-TTLQVHSH1F');
               `,
             }}
         />
