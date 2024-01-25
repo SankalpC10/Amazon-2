@@ -7,6 +7,14 @@ export default function Home({products}) {
     <div>
       <Head>
         <title>Amazon 2.0</title>
+          <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4K5STWR05"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Q4K5STWR05');
+          </script>
       </Head>
       <Header/>
       <main className="max-w-screen-2xl mx-auto bg-gray-200">
