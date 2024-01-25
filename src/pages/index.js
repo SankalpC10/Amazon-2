@@ -7,7 +7,6 @@ export default function Home({products}) {
     <div>
       <Head>
         <title>Amazon 2.0</title>
-          <!-- Google tag (gtag.js) -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4K5STWR05"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
